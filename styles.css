@@ -10,13 +10,14 @@ body {
 	padding: 0;
 	height: 100%;
 	background-color: #E75331;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 .hero {
-
+	min-height: 100vh;
+	display:flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
 }
 
 h1 {
@@ -24,5 +25,5 @@ h1 {
 	color: white;
 	text-align: center;
 	font-family: helvetica;
-	text-shadow: 10px 10px 0 rgba(0,0,0,1);
+	text-shadow: 10px 10px 6 rgba(0,0,0,1);
 }
